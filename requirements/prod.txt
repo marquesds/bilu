@@ -1,0 +1,5 @@
+Quart==0.4.1
+aiohttp==3.1.1
+beautifulsoup4==4.6.0
+selenium==3.11.0
+gunicorn==19.7.1
