@@ -1,5 +1,9 @@
-from quart import Quart
+import logging
 import os
+
+from quart import Quart
+
+logger = logging.getLogger(__name__)
 
 
 def create_app(environment=os.getenv('ENVIRONMENT', 'Development')):

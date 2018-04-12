@@ -1,2 +1,2 @@
-class InvalidLinkException(Exception):
+class InvalidChoiceException(Exception):
     pass
